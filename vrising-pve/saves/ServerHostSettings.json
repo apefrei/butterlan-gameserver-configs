@@ -1,0 +1,23 @@
+{
+  "Name": "Butterlan V-Rising PVE Server",
+  "Description": "Fast Progress Server",
+  "Port": 9876,
+  "QueryPort": 9877,
+  "MaxConnectedUsers": 40,
+  "MaxConnectedAdmins": 4,
+  "ServerFps": 30,
+  "SaveName": "vrising-pve",
+  "Password": "",
+  "Secure": true,
+  "ListOnMasterServer": true,
+  "AutoSaveCount": 50,
+  "AutoSaveInterval": 600,
+  "GameSettingsPreset": "StandardPVE",
+  "AdminOnlyDebugEvents": true,
+  "DisableDebugEvents": false,
+  "Rcon": {
+    "Enabled": true,
+    "Password": "<changeme>",
+    "Port": 9878
+  }
+}
