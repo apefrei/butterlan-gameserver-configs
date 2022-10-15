@@ -17,7 +17,7 @@
   "DisableDebugEvents": false,
   "Rcon": {
     "Enabled": true,
-    "Password": "omnia99plan",
+    "Password": "<changeme>",
     "Port": 9878
   }
 }
