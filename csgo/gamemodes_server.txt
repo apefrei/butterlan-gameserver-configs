@@ -31,13 +31,13 @@
 			"name"			"mg_butterlan"
 			"maps"
 			{
-				"de_dust2"		""
-				"de_nuke"		""
-				"de_train"		""
+				"de_vertigo"		""
+				"de_dust2"			""
 				"de_inferno"		""
-				"de_aztec"		""
-				"cs_italy"			""
-				"cs_office"			""
+				"de_mirage"			""
+				"de_nuke"			""
+				"de_overpass"		""
+				"de_ancient"		""
 			}
 		}
 	}
