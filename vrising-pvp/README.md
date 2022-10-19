@@ -7,6 +7,7 @@
 ## Download
 
 ´´´bash
-wget https://raw.githubusercontent.com/apefrei/butterlan-gameserver-configs/main/vrising-pvp/saves/ServerGameSettings.json
-wget https://raw.githubusercontent.com/apefrei/butterlan-gameserver-configs/main/vrising-pvp/saves/ServerHostSettings.json
+DLURL="https://raw.githubusercontent.com/apefrei/butterlan-gameserver-configs/main/vrising-pvp/saves"
+curl $DLURL/ServerGameSettings.json --output /data/vrising-pvp/saves/ServerGameSettings.json
+curl $DLURL/ServerHostSettings.json --output /data/vrising-pvp/saves/ServerHostSettings.json
 ´´´
