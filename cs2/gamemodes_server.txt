@@ -1,44 +1,41 @@
-// To use this file, rename it to GameModes_Server.txt
-//
-// Values here override the default gamemodes.txt 
-
 "GameModes_Server.txt"
 {
-	"gameTypes"
-	{
-		"classic"
-		{
-			"gameModes"
-			{
-				"competitive"
-				{
-					"exec"
-					{
-						"exec"								"butterlan.cfg"
-					}
-					"mapgroupsMP"						// Liste der mapgroups, die für diesen Modus möglich sind					{
-						"mg_butterlan"		""
-					}
-				}
-			}	
-		}
-	}
+    "gameTypes"
+    {
+        "classic"
+        {
+            "gameModes"
+            {
+                "competitive"
+                {
+                    "exec"
+                    {
+                        "exec" "butterlan.cfg"
+                    }
+                    "mapgroupsMP"
+                    {
+                        "mg_butterlan" ""
+                    }
+                }
+            }
+        }
+    }
 
-	"mapgroups"
-	{
-		"mg_butterlan"									// mapgroup definition
-		{
-			"name"			"mg_butterlan"
-			"maps"
-			{
-				"de_anubis"			""
-				"de_inferno"		""
-				"de_mirage"			""
-				"de_nuke"			""
-				"de_overpass"		""
-				"de_ancient"		""
-				"de_vertigo"		""
-			}
-		}
-	}
+    "mapgroups"
+    {
+        "mg_butterlan"
+        {
+            "name" "mg_butterlan"
+            "maps"
+            {
+                "de_anubis" "de_anubis.bsp"
+                "de_inferno" "de_inferno.bsp"
+                "de_mirage" "de_mirage.bsp"
+                "de_nuke" "de_nuke.bsp"
+                "de_overpass" "de_overpass.bsp"
+                "de_ancient" "de_ancient.bsp"
+                "de_vertigo" "de_vertigo.bsp"
+            }
+        }
+    }
 }
