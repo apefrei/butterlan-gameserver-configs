@@ -14,7 +14,7 @@
 				{
 					"exec"
 					{
-						"exec"								"esl5on5.cfg"
+						"exec"								"butterlan.cfg"
 					}
 					"mapgroupsMP"						// Liste der mapgroups, die für diesen Modus möglich sind					{
 						"mg_butterlan"		""
